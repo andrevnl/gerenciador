@@ -14,6 +14,14 @@
 </head>
 <body>
 
+	<c:import url="logout-parcial.jsp"></c:import>
+	
+	Usuario Logado: ${usuarioLogado.login }
+
+	<br>
+	<br>
+	<br>
+
 	Lista de empresas: <br />
 	
 	<ul>
